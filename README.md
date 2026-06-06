@@ -1,78 +1,104 @@
 # Jyothi Basu
 
-Backend-focused Python developer building secure, production-style REST APIs using Flask and MySQL.
+Backend-focused Python developer building APIs, authentication systems, and production-style backend applications.
 
-Experienced in designing backend systems with authentication, validation, and layered architecture. Strong focus on writing clean, maintainable code and debugging real-world issues.
+Currently interning at FamilyShell as a Software Engineering Trainee Intern, where I am learning modern backend
+workflows and contributing to team-based product development.
 
 ---
 
 ## Technical Focus
 
-- Python  
-- Flask  
-- REST API design  
-- MySQL (database integration)  
-- JWT authentication & route protection  
-- Input validation & business logic  
-- Layered architecture (Routes → Service → Storage)  
-- HTTP status codes & structured JSON responses  
-- Git & virtual environments  
+  - Python                                                                                                               
+  - FastAPI and Flask                                                                                                    
+  - REST API design                                                                                                      
+  - Authentication and authorization                                                                                     
+  - JWT and protected routes                                                                                             
+  - MySQL, MongoDB, and Redis                                                                                            
+  - Docker and containerized development                                                                                 
+  - Basic AWS concepts                                                                                                   
+  - Input validation and business rules                                                                                  
+  - Layered architecture                                                                                                 
+  - Git, pull requests, and code review                                                                                  
+  - Testing and debugging                                                                                                
 
----
+  ---                                                                                                                    
 
-## Featured Projects
+  ## Featured Work                                                                                                       
 
-### Inventory Management API
+  ### Inventory Management API                                                                                           
 
-Production-style Flask REST API with MySQL, JWT authentication, and protected routes.
+  Production-style Flask REST API with MySQL, JWT authentication, role-based authorization, and protected routes.        
 
-**Key features:**
-- Full CRUD operations  
-- Secure authentication (bcrypt + JWT)  
-- Route protection using decorators  
-- Input validation and business rules  
-- Layered backend architecture  
+  **Highlights:**                                                                                                        
+  - Full CRUD operations                                                                                                 
+  - Secure signup and login with bcrypt + JWT                                                                            
+  - Admin/staff route permissions                                                                                        
+  - Validation and structured error responses                                                                            
+  - Layered backend architecture                                                                                         
+  - Deployed on Render                                                                                                   
+  - MySQL hosted on alwaysdata                                                                                           
+  - Environment-based configuration                                                                                      
 
-Repository:  
-https://github.com/jyothi-basu/inventory-management-api  
+  Repository:                                                                                                            
+  https://github.com/jyothi-basu/inventory-management-api                                                                
 
----
+  Live API:                                                                                                              
+  https://inventory-management-api-4ikv.onrender.com/                                                                    
 
-### Expense Tracker (CLI Team Project)
+  ---                                                                                                                    
 
-Command-line expense management application built as part of Python coursework.
+  ### FamilyShell Internship                                                                                             
 
-Repository:  
-https://github.com/satyamagrawal28/expense-tracker-project  
+  Software Engineering Trainee Intern at FamilyShell                                                                     
 
----
+  Website:                                                                                                               
+  https://familyshell.com/                                                                                               
 
-### Python Fundamentals Coursework
+  **Current focus:**                                                                                                     
+  - Learning the team stack and development workflow                                                                     
+  - Working with FastAPI, MongoDB, Redis, Docker, AWS basics, and Flutter                                                
+  - Preparing for branch-based development and pull request review                                                       
+  - Building practical experience in a remote product team                                                               
 
-Collection of structured assignments covering core Python concepts.
+  ---                                                                                                                    
 
-Repository:  
-https://github.com/jyothi-basu/visionaid-python-class-assignments  
+  ### Expense Tracker                                                                                                    
 
----
+  Command-line expense management application built as part of Python coursework.                                        
 
-## Current Direction
+  Repository:                                                                                                            
+  https://github.com/satyamagrawal28/expense-tracker-project                                                             
 
-- Strengthening backend development with authentication and security  
-- Learning deployment (Gunicorn, VPS / cloud platforms)  
-- Exploring role-based authorization and scalable backend design  
-- Preparing for backend development internship opportunities  
+  ---                                                                                                                    
 
----
+  ### Python Fundamentals Coursework                                                                                     
 
-## Education
+  Collection of structured assignments covering core Python concepts.                                                    
 
-MBA (Systems Specialization)  
-Sathyabama University, Chennai  
+  Repository:                                                                                                            
+  https://github.com/jyothi-basu/visionaid-python-class-assignments                                                      
 
----
+  ---                                                                                                                    
 
-## Connect
+  ## Current Direction                                                                                                   
 
-LinkedIn: https://linkedin.com/in/jyothi-basu-chodavarapu  
-Email: jyothibasuchodavarapu@gmail.com
+  - Strengthening backend development with modern Python frameworks                                                      
+  - Building real-world experience with databases, caching, and APIs                                                     
+  - Learning Docker and deployment workflows                                                                             
+  - Improving testing discipline and code quality                                                                        
+  - Growing through internship-based product development                                                                 
+
+  ---                                                                                                                    
+
+  ## Education                                                                                                           
+
+  MBA (Systems Specialization)                                                                                           
+  Sathyabama University, Chennai                                                                                         
+
+  ---                                                                                                                    
+
+  ## Connect                                                                                                             
+
+  LinkedIn: https://linkedin.com/in/jyothi-basu-chodavarapu                                                              
+  Email: jyothibasuchodavarapu@gmail.com                                                                                
