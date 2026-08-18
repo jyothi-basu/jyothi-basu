@@ -1,104 +1,152 @@
 # Jyothi Basu
 
-Backend-focused Python developer building APIs, authentication systems, and production-style backend applications.
+Backend-focused Python developer building APIs, authentication systems, layered backend applications, and AI-powered backend systems.
 
-Currently interning at FamilyShell as a Software Engineering Trainee Intern, where I am learning modern backend
-workflows and contributing to team-based product development.
+Currently interning at FamilyShell as a Software Engineering Trainee Intern, gaining hands-on experience with modern backend workflows, team-based product development, debugging, and feature development on a production-oriented application.
 
 ---
 
 ## Technical Focus
 
-  - Python                                                                                                               
-  - FastAPI and Flask                                                                                                    
-  - REST API design                                                                                                      
-  - Authentication and authorization                                                                                     
-  - JWT and protected routes                                                                                             
-  - MySQL, MongoDB, and Redis                                                                                            
-  - Docker and containerized development                                                                                 
-  - Input validation and business rules                                                                                  
-  - Layered architecture                                                                                                 
-  - Git, pull requests, and code review                                                                                  
-  - Testing and debugging                                                                                                
+* Python
+* FastAPI and Flask
+* REST API design
+* Authentication and authorization
+* JWT and protected routes
+* MySQL, SQLite, MongoDB, and Redis
+* Docker and containerized development
+* RAG and vector search
+* LangChain and tool calling
+* Input validation and business rules
+* Layered architecture
+* Git, pull requests, and code review
+* Testing and debugging
 
-  ---                                                                                                                    
+---
 
-  ## Featured Work                                                                                                       
+## Featured Work
 
-  ### Inventory Management API                                                                                           
+### FamilyShell Internship
 
-  Production-style Flask REST API with MySQL, JWT authentication, role-based authorization, and protected routes.        
+**Software Engineering Trainee Intern at FamilyShell**
 
-  **Highlights:**                                                                                                        
-  - Full CRUD operations                                                                                                 
-  - Secure signup and login with bcrypt + JWT                                                                            
-  - Admin/staff route permissions                                                                                        
-  - Validation and structured error responses                                                                            
-  - Layered backend architecture                                                                                         
-  - Deployed on Render                                                                                                   
-  - MySQL hosted on alwaysdata                                                                                           
-  - Environment-based configuration                                                                                      
+Website: [https://familyshell.com/](https://familyshell.com/)
 
-  Repository:                                                                                                            
-  https://github.com/jyothi-basu/inventory-management-api                                                                
+Currently gaining hands-on software engineering experience through technical training and development work on a production-oriented application.
 
-  Live API:                                                                                                              
-  https://inventory-management-api-4ikv.onrender.com/                                                                    
+**Technologies and areas of experience:**
 
-  ---                                                                                                                    
+* FastAPI
+* MongoDB
+* Redis
+* Docker
+* Flutter
+* Authentication
+* File uploads
+* Cloudflare R2 storage
 
-  ### FamilyShell Internship                                                                                             
+**Engineering work:**
 
-  Software Engineering Trainee Intern at FamilyShell                                                                     
-
-  Website:                                                                                                               
-  https://familyshell.com/                                                                                               
-
-Currently gaining hands-on software engineering experience through technical training and development work on a production-oriented application. Trained in **FastAPI, MongoDB, Redis, Flutter, and Docker**, followed by hands-on debugging and feature development across the application.
-
-* Investigating and resolving backend and frontend issues across **FastAPI APIs, MongoDB, Redis, Flutter, authentication, file uploads, and Cloudflare R2 storage**.
+* Investigating and resolving backend and frontend issues across FastAPI APIs, MongoDB, Redis, Flutter, authentication, file uploads, and cloud storage.
 * Reproducing bugs, analyzing application and backend logs, tracing frontend-backend data flows, identifying root causes, implementing fixes, and validating them through testing.
-* Working on the **Health Records** feature, including attachment upload, multi-file handling, Flutter Web compatibility, filename preservation, legacy-data compatibility, attachment viewing, and cloud-storage integration.
+* Working on the Health Records feature, including attachment upload, multi-file handling, Flutter Web compatibility, filename preservation, legacy-data compatibility, attachment viewing, and cloud-storage integration.
 * Collaborating with the development team to test fixes, document bugs, and improve application functionality.
 
-  ---                                                                                                                    
+---
 
-  ### Expense Tracker                                                                                                    
+### Inventory Management API
 
-  Command-line expense management application built as part of Python coursework.                                        
+Production-style Flask REST API for managing inventory with MySQL, JWT authentication, role-based authorization, and layered backend architecture.
 
-  Repository:                                                                                                            
-  https://github.com/satyamagrawal28/expense-tracker-project                                                             
+**Highlights:**
 
-  ---                                                                                                                    
+* Full CRUD operations
+* Secure signup and login with bcrypt and JWT
+* Admin/staff route permissions
+* Input validation and structured error responses
+* Layered backend architecture
+* MySQL database
+* Environment-based configuration
+* Deployed on Render
+* MySQL hosted on AlwaysData
 
-  ### Python Fundamentals Coursework                                                                                     
+**Repository:**
+[https://github.com/jyothi-basu/inventory-management-api](https://github.com/jyothi-basu/inventory-management-api)
 
-  Collection of structured assignments covering core Python concepts.                                                    
+**Live API:**
+[https://inventory-management-api-4ikv.onrender.com/](https://inventory-management-api-4ikv.onrender.com/)
 
-  Repository:                                                                                                            
-  https://github.com/jyothi-basu/visionaid-python-class-assignments                                                      
+---
 
-  ---                                                                                                                    
+### Investment Portfolio Tracker
 
-  ## Current Direction                                                                                                   
+Flask-based investment portfolio application featuring a **multi-source, tool-calling AI assistant**.
 
-  - Strengthening backend development with modern Python frameworks                                                      
-  - Building real-world experience with databases, caching, and APIs                                                     
-  - Learning Docker and deployment workflows                                                                             
-  - Improving testing discipline and code quality                                                                        
-  - Growing through internship-based product development                                                                 
+The assistant can use three sources of project-specific information:
 
-  ---                                                                                                                    
+* **Portfolio data** — holdings, transactions, demat accounts, and portfolio calculations through backend tools.
+* **Uploaded financial documents** — RAG-based retrieval using ChromaDB, with document-grounded source citations.
+* **Application knowledge** — a dedicated tool for answering questions about how to use the application.
 
-  ## Education                                                                                                           
+The LLM can select the appropriate tool or combination of tools depending on the user's question.
 
-  MBA (Systems Specialization)                                                                                           
-  Sathyabama University, Chennai                                                                                         
+**Highlights:**
 
-  ---                                                                                                                    
+* Portfolio management across multiple demat accounts
+* BUY/SELL transaction management
+* Portfolio and holdings calculations
+* Layered Flask backend architecture
+* Persistent chat history
+* Financial document upload and validation
+* ChromaDB-based vector search and RAG
+* LangChain tool calling
+* Trusted server-side request context
+* User- and chat-scoped document retrieval
+* Source citations for document-grounded answers
+* Application-help, portfolio, and document tools
 
-  ## Connect                                                                                                             
+**Repository:**
+[https://github.com/jyothi-basu/investment-portfolio-tracker](https://github.com/jyothi-basu/investment-portfolio-tracker)
 
-  LinkedIn: https://linkedin.com/in/jyothi-basu-chodavarapu                                                              
-  Email: jyothibasuchodavarapu@gmail.com                                                                                
+---
+
+## Other Projects
+
+### Expense Tracker
+
+Command-line expense management application built as part of Python coursework.
+
+### Python Fundamentals Coursework
+
+Collection of structured assignments covering core Python concepts.
+
+**Repository:**
+[https://github.com/jyothi-basu/visionaid-python-class-assignments](https://github.com/jyothi-basu/visionaid-python-class-assignments)
+
+---
+
+## Current Direction
+
+* Strengthening Python backend development with Flask and FastAPI
+* Building real-world experience with SQL and NoSQL databases, caching, and APIs
+* Improving Docker and deployment skills
+* Developing practical experience with RAG and tool-calling AI systems
+* Improving testing, debugging, and code quality
+* Growing through internship-based product development
+
+---
+
+## Education
+
+**MBA — Systems Specialization**
+Sathyabama Institute of Science and Technology, Chennai
+
+---
+
+## Connect
+
+**LinkedIn:**
+[https://linkedin.com/in/jyothi-basu-chodavarapu](https://linkedin.com/in/jyothi-basu-chodavarapu)
+
+**Email:**
+[jyothibasuchodavarapu@gmail.com](mailto:jyothibasuchodavarapu@gmail.com)
