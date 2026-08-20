@@ -115,6 +115,8 @@ The LLM can select the appropriate tool or combination of tools depending on the
 ### Expense Tracker
 
 Command-line expense management application built as part of Python coursework.
+**Repository:**
+[https://github.com/satyamagrawal28/expanse-tracker-project](https://github.com/satyamagrawal28/expanse-tracker-project)
 
 ### Python Fundamentals Coursework
 
