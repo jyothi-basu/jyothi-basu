@@ -79,32 +79,26 @@ Production-style Flask REST API for managing inventory with MySQL, JWT authentic
 ---
 
 ### Investment Portfolio Tracker
-
-Flask-based investment portfolio application featuring a **multi-source, tool-calling AI assistant**.
-
-The assistant can use three sources of project-specific information:
-
-* **Portfolio data** — holdings, transactions, demat accounts, and portfolio calculations through backend tools.
-* **Uploaded financial documents** — RAG-based retrieval using ChromaDB, with document-grounded source citations.
-* **Application knowledge** — a dedicated tool for answering questions about how to use the application.
-
-The LLM can select the appropriate tool or combination of tools depending on the user's question.
-
-**Highlights:**
-
-* Portfolio management across multiple demat accounts
-* BUY/SELL transaction management
-* Portfolio and holdings calculations
-* Layered Flask backend architecture
-* Persistent chat history
-* Financial document upload and validation
-* ChromaDB-based vector search and RAG
-* LangChain tool calling
-* Trusted server-side request context
-* User- and chat-scoped document retrieval
-* Source citations for document-grounded answers
-* Application-help, portfolio, and document tools
-
+Production-style Flask investment portfolio application featuring a **multi-source AI assistant** that is available through both a web interface and a **Model Context Protocol (MCP) STDIO server**.
+Instead of answering questions from a single source, the assistant can combine multiple sources of project-specific knowledge in one conversation.
+**AI knowledge sources**
+- **Portfolio data** — holdings, transactions, demat accounts, portfolio summaries, and investment calculations through backend tools.
+- **Uploaded financial documents** — Retrieval-Augmented Generation (RAG) using ChromaDB with document-grounded source citations.
+- **Application knowledge** — built-in help tool for answering questions about using the application.
+The same RAG pipeline powers both the Flask AI assistant and the MCP server, allowing AI clients such as **Codex CLI** to query uploaded financial documents without duplicating backend logic.
+**Highlights**
+- Multi-demat investment portfolio management.
+- BUY/SELL transaction management and portfolio calculations.
+- Layered Flask backend architecture with service and repository layers.
+- Persistent chat history and user-specific conversations.
+- Financial document upload, validation, and storage.
+- ChromaDB-powered vector search with RAG and source citations.
+- LangChain tool-calling AI assistant with multi-tool orchestration.
+- Trusted server-side request context for authenticated retrieval.
+- User- and chat-scoped document retrieval.
+- **MCP STDIO server** exposing the document search capability to external AI clients while reusing the existing RAG backend.
+**Tech Stack**
+Python • Flask • LangChain • ChromaDB • SQLite • OpenAI Embeddings • JWT-style request context • MCP (STDIO)
 **Repository:**
 [https://github.com/jyothi-basu/investment-portfolio-tracker](https://github.com/jyothi-basu/investment-portfolio-tracker)
 
