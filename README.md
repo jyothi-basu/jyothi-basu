@@ -55,10 +55,9 @@ Currently gaining hands-on software engineering experience through technical tra
 ---
 
 ### Inventory Management API
-
 Production-style Flask REST API for managing inventory with MySQL, JWT authentication, role-based authorization, and layered backend architecture.
 
-**Highlights:**
+####Highlights
 
 * Full CRUD operations
 * Secure signup and login with bcrypt and JWT
@@ -79,26 +78,54 @@ Production-style Flask REST API for managing inventory with MySQL, JWT authentic
 ---
 
 ### Investment Portfolio Tracker
-Production-style Flask investment portfolio application featuring a **multi-source AI assistant** that is available through both a web interface and a **Model Context Protocol (MCP) STDIO server**.
-Instead of answering questions from a single source, the assistant can combine multiple sources of project-specific knowledge in one conversation.
-**AI knowledge sources**
-- **Portfolio data** — holdings, transactions, demat accounts, portfolio summaries, and investment calculations through backend tools.
-- **Uploaded financial documents** — Retrieval-Augmented Generation (RAG) using ChromaDB with document-grounded source citations.
-- **Application knowledge** — built-in help tool for answering questions about using the application.
-The same RAG pipeline powers both the Flask AI assistant and the MCP server, allowing AI clients such as **Codex CLI** to query uploaded financial documents without duplicating backend logic.
-**Highlights**
-- Multi-demat investment portfolio management.
-- BUY/SELL transaction management and portfolio calculations.
-- Layered Flask backend architecture with service and repository layers.
-- Persistent chat history and user-specific conversations.
-- Financial document upload, validation, and storage.
-- ChromaDB-powered vector search with RAG and source citations.
-- LangChain tool-calling AI assistant with multi-tool orchestration.
-- Trusted server-side request context for authenticated retrieval.
-- User- and chat-scoped document retrieval.
-- **MCP STDIO server** exposing the document search capability to external AI clients while reusing the existing RAG backend.
-**Tech Stack**
-Python • Flask • LangChain • ChromaDB • SQLite • OpenAI Embeddings • JWT-style request context • MCP (STDIO)
+A **production-style FastAPI investment portfolio application** featuring a provider-agnostic, multi-source AI assistant powered by **LangChain, Retrieval-Augmented Generation (RAG), and the Model Context Protocol (MCP)**.
+Instead of answering questions from a single source, the assistant combines live portfolio data, uploaded financial documents, and application knowledge within the same conversation.
+
+#### AI Knowledge Sources
+
+* **Portfolio data** — Holdings, BUY/SELL transactions, Demat accounts, portfolio summaries, and investment calculations through backend tools.
+* **Uploaded financial documents** — Retrieval-Augmented Generation (RAG) using ChromaDB with document-grounded source citations.
+* **Application knowledge** — A dedicated tool that answers questions about how to use the application.
+
+The same RAG pipeline powers both the web AI assistant and the **MCP STDIO server**, allowing external AI clients such as **Codex CLI** to search uploaded financial documents without duplicating backend logic.
+
+#### Highlights
+
+* Multi-Demat investment portfolio management.
+* BUY/SELL transaction management and portfolio calculations.
+* Layered FastAPI backend architecture with route, service, repository, and AI layers.
+* Provider-agnostic AI architecture supporting native Gemini SDK and OpenAI-compatible LLM providers.
+* Configurable embeddings using OpenAI-compatible providers or local SentenceTransformer models.
+* Persistent chat history with user-specific conversations.
+* Financial document upload, validation, and storage.
+* ChromaDB-powered semantic search with Retrieval-Augmented Generation (RAG).
+* LangChain tool-calling AI assistant with multi-tool orchestration.
+* Trusted server-side request context for authenticated document retrieval.
+* User- and chat-scoped document retrieval with source citations.
+* MCP STDIO server exposing document search to external AI clients while reusing the existing RAG backend.
+
+#### Tech Stack
+
+**Backend:** FastAPI, Python
+
+**AI:** LangChain, Gemini SDK, OpenAI-compatible providers
+
+**RAG:** ChromaDB, SentenceTransformers / OpenAI-compatible embeddings
+
+**Database:** SQLite
+
+**Protocol:** Model Context Protocol (STDIO)
+
+#### Project Status
+
+Current release: **v0.5.0 — FastAPI Backend Migration**
+
+Next planned milestones:
+
+* MCP SSE server.
+* LangGraph agent orchestration.
+* Present Value (PV) and Net Present Value (NPV) analysis.
+
 **Repository:**
 [https://github.com/jyothi-basu/investment-portfolio-tracker](https://github.com/jyothi-basu/investment-portfolio-tracker)
 
