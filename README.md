@@ -57,7 +57,7 @@ Currently gaining hands-on software engineering experience through technical tra
 ### Inventory Management API
 Production-style Flask REST API for managing inventory with MySQL, JWT authentication, role-based authorization, and layered backend architecture.
 
-####Highlights
+#### Highlights
 
 * Full CRUD operations
 * Secure signup and login with bcrypt and JWT
