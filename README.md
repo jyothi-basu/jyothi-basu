@@ -98,6 +98,7 @@ The same RAG pipeline powers both the web AI assistant and the **MCP server**, a
 **Authentication:** JWT (Access & Refresh Tokens), Personal Access Tokens (PAT)
 **Database:** SQLite
 **Protocols:** Model Context Protocol (Streamable HTTP and STDIO)
+**Testing:** pytest
 
 #### Architecture Highlights
 * **Layered Architecture:** Routes → Services → Repository → AI.
