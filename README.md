@@ -89,6 +89,7 @@ The same RAG pipeline powers both the web AI assistant and the **MCP server**, a
 * Trusted backend context that prevents AI models from receiving internal `user_id` or `chat_id`.
 * User- and chat-scoped document retrieval with grounded source citations.
 * **Model Context Protocol (MCP)** with Streamable HTTP, Personal Access Token (PAT) authentication, conversation selection, and shared backend tools.
+* Automated **pytest** test suite covering authentication, portfolio management, document workflows, AI tools, and MCP integration.
 
 #### Tech Stack
 **Backend:** FastAPI, Python
