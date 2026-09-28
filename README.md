@@ -50,12 +50,23 @@ A production-style **FastAPI backend application** that combines investment port
 
 **Repository:** {turn0search1.url}
 
----
+## AccessTracker — Accessibility Bug Reporting Platform
+A full-stack platform where screen reader users can report, verify, and track accessibility issues across Android, iOS, Windows, Linux, macOS, and Web applications.
+
+### Highlights
+- FastAPI backend with feature based architecture.
+- MongoDB Database with PyMongo driver.
+- JWT authentication with access and refresh tokens.
+- Email OTP verification with Redis.
+- Role-Based Access Control (Admin, User, Guest).
+- CRUD APIs for accessibility bug reports.
+- Community verification system.
+- Flutter Web frontend with authenticated navigation.
+- Feature-based backend architecture.
+**Repository:** {github.com/jyothi-basu/access-tracker}
 
 ## Inventory Management API
-
 A production-style **Flask REST API** for inventory management with secure authentication and MySQL persistence.
-
 ### Highlights
 
 * JWT-based authentication and protected routes.
@@ -72,7 +83,7 @@ A production-style **Flask REST API** for inventory management with secure authe
 
 ## Software Engineering Internship — FamilyShell LLP
 
-Working on a production family management platform built with **FastAPI, MongoDB, Redis, Docker, Cloudflare R2, and Flutter**.
+Worked on a production family management platform built with **FastAPI, MongoDB, Redis, Docker, Cloudflare R2, and Flutter**.
 
 ### Engineering Experience
 
@@ -104,7 +115,6 @@ A collaborative command-line expense management application built using Python a
 * SQLAlchemy ORM for relational database applications.
 * Alembic for database schema migrations.
 * PostgreSQL for production-ready backend deployments.
-* Pagination, and search in REST APIs.
 * OAuth 2.0 (Google Sign-In) integration for backend applications.
 
 ---
