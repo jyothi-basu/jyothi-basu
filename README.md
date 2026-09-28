@@ -48,7 +48,7 @@ A production-style **FastAPI backend application** that combines investment port
 * **MCP servers** supporting **STDIO** and **Streamable HTTP** transports with authenticated document search.
 * Automated **pytest** test suite covering authentication, portfolio management, document workflows, AI tools, and MCP integration.
 
-**Repository:** {turn0search1.url}
+**Repository:** github.com/jyothi-basu/investment-portfolio-tracker
 
 ## AccessTracker — Accessibility Bug Reporting Platform
 A full-stack platform where screen reader users can report, verify, and track accessibility issues across Android, iOS, Windows, Linux, macOS, and Web applications.
@@ -63,7 +63,7 @@ A full-stack platform where screen reader users can report, verify, and track ac
 - Community verification system.
 - Flutter Web frontend with authenticated navigation.
 - Feature-based backend architecture.
-**Repository:** {github.com/jyothi-basu/access-tracker}
+**Repository:** [github.com/jyothi-basu/access-tracker]
 
 ## Inventory Management API
 A production-style **Flask REST API** for inventory management with secure authentication and MySQL persistence.
@@ -77,7 +77,7 @@ A production-style **Flask REST API** for inventory management with secure authe
 * Environment-based configuration.
 * Deployed on Render.
 
-**Repository:** {turn0search10.url}
+**Repository:** [github.com/jyothi-basu/inventory-management-api]
 
 ---
 
@@ -100,13 +100,13 @@ Worked on a production family management platform built with **FastAPI, MongoDB,
 
 A public repository containing **50+ Python programs** covering core programming concepts, file handling, exception handling, data structures, string processing, and problem solving.
 
-**Repository:** {turn0search9.url}
+**Repository:** [github.com/jyothi-basu/visionaid-python-class-assignments]
 
 ### Expense Tracker
 
 A collaborative command-line expense management application built using Python and GitHub collaboration.
 
-**Repository:** {turn0search11.url}
+**Repository:** [github.com/satyamagrawal28/expanse-tracker-project]
 
 ---
 
@@ -130,9 +130,7 @@ Expected Graduation: **2027**
 ---
 
 ## Let's Connect
-
-**LinkedIn:** {turn0search0.url}
-
-**GitHub:** {turn0search7.url}
-
-**Email:** [jyothibasuchodavarapu@gmail.com](mailto:jyothibasuchodavarapu@gmail.com)
+**Website:** [jyothibasu.is-a.dev]
+**LinkedIn:** [linkedin.com/in/jyothi-basu-chodavarapu]
+**GitHub:** [github.com/jyothi-basu]
+**Email:**[ jyothibasuchodavarapu@gmail.com](mailto:jyothibasuchodavarapu@gmail.com)
