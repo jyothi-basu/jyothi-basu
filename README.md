@@ -1,6 +1,6 @@
 # Hi, I'm Jyothi Basu 👋
 **Python Backend Developer** focused on building production-oriented REST APIs, authentication systems, database-driven backend applications, and AI-integrated backend services.
-I'm currently a **Software Engineering Trainee Intern at FamilyShell LLP**, where I work on a production healthcare family management using **FastAPI, MongoDB, Redis, Docker, Cloudflare R2, and Flutter**, contributing to backend development, debugging, testing, and feature implementation.
+I'm recently completed a **Software Engineering Trainee Internship at FamilyShell LLP**, where I worked on health records module of a production family management platform using **FastAPI, MongoDB, Redis, Docker, Cloudflare R2, and Flutter**, contributed to backend development, debugging, testing, and feature implementation.
 
 ---
 
@@ -18,7 +18,7 @@ I'm currently a **Software Engineering Trainee Intern at FamilyShell LLP**, wher
 
 ## Tech Stack
 ### Backend
-Python • FastAPI • Flask • REST APIs • Uvicorn • Gunicorn
+Python, FastAPI, Flask, REST APIs, Pytest, Uvicorn, Gunicorn
 ### Databases
 MySQL • SQLite • MongoDB • Redis
 ### Authentication & Security
@@ -48,7 +48,7 @@ A production-style **FastAPI backend application** that combines investment port
 * **MCP servers** supporting **STDIO** and **Streamable HTTP** transports with authenticated document search.
 * Automated **pytest** test suite covering authentication, portfolio management, document workflows, AI tools, and MCP integration.
 
-**Repository:** github.com/jyothi-basu/investment-portfolio-tracker
+[**Repository:**] (https://github.com/jyothi-basu/investment-portfolio-tracker)
 
 ## AccessTracker — Accessibility Bug Reporting Platform
 A full-stack platform where screen reader users can report, verify, and track accessibility issues across Android, iOS, Windows, Linux, macOS, and Web applications.
@@ -63,7 +63,7 @@ A full-stack platform where screen reader users can report, verify, and track ac
 - Community verification system.
 - Flutter Web frontend with authenticated navigation.
 - Feature-based backend architecture.
-**Repository:** [github.com/jyothi-basu/access-tracker]
+[**Repository:**] (https://github.com/jyothi-basu/access-tracker)
 
 ## Inventory Management API
 A production-style **Flask REST API** for inventory management with secure authentication and MySQL persistence.
@@ -77,7 +77,7 @@ A production-style **Flask REST API** for inventory management with secure authe
 * Environment-based configuration.
 * Deployed on Render.
 
-**Repository:** [github.com/jyothi-basu/inventory-management-api]
+[**Repository:**] (https://github.com/jyothi-basu/inventory-management-api)
 
 ---
 
@@ -100,13 +100,13 @@ Worked on a production family management platform built with **FastAPI, MongoDB,
 
 A public repository containing **50+ Python programs** covering core programming concepts, file handling, exception handling, data structures, string processing, and problem solving.
 
-**Repository:** [github.com/jyothi-basu/visionaid-python-class-assignments]
+[**Repository:**] (https://github.com/jyothi-basu/visionaid-python-class-assignments)
 
 ### Expense Tracker
 
 A collaborative command-line expense management application built using Python and GitHub collaboration.
 
-**Repository:** [github.com/satyamagrawal28/expanse-tracker-project]
+[**Repository:**] (https://github.com/satyamagrawal28/expanse-tracker-project)
 
 ---
 
