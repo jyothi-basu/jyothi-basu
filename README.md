@@ -1,6 +1,6 @@
 # Hi, I'm Jyothi Basu 👋
 **Python Backend Developer** focused on building production-oriented REST APIs, authentication systems, database-driven backend applications, and AI-integrated backend services.
-I'm recently completed a **Software Engineering Trainee Internship at FamilyShell LLP**, where I worked on health records module of a production family management platform using **FastAPI, MongoDB, Redis, Docker, Cloudflare R2, and Flutter**, contributed to backend development, debugging, testing, and feature implementation.
+I'm currently working  as **Software Engineering Trainee Internship at FamilyShell LLP**, where I worked on health records module of a production family management platform using **FastAPI, MongoDB, Redis, Docker, Cloudflare R2, and Flutter**, contributed to backend development, debugging, testing, and feature implementation.
 
 ---
 
@@ -48,7 +48,7 @@ A production-style **FastAPI backend application** that combines investment port
 * **MCP servers** supporting **STDIO** and **Streamable HTTP** transports with authenticated document search.
 * Automated **pytest** test suite covering authentication, portfolio management, document workflows, AI tools, and MCP integration.
 
-[**Repository:**] (https://github.com/jyothi-basu/investment-portfolio-tracker)
+[View Repository](https://github.com/jyothi-basu/investment-portfolio-tracker)
 
 ## AccessTracker — Accessibility Bug Reporting Platform
 A full-stack platform where screen reader users can report, verify, and track accessibility issues across Android, iOS, Windows, Linux, macOS, and Web applications.
@@ -63,7 +63,7 @@ A full-stack platform where screen reader users can report, verify, and track ac
 - Community verification system.
 - Flutter Web frontend with authenticated navigation.
 - Feature-based backend architecture.
-[**Repository:**] (https://github.com/jyothi-basu/access-tracker)
+[View Repository:](https://github.com/jyothi-basu/access-tracker)
 
 ## Inventory Management API
 A production-style **Flask REST API** for inventory management with secure authentication and MySQL persistence.
@@ -77,7 +77,7 @@ A production-style **Flask REST API** for inventory management with secure authe
 * Environment-based configuration.
 * Deployed on Render.
 
-[**Repository:**] (https://github.com/jyothi-basu/inventory-management-api)
+[View Repository](https://github.com/jyothi-basu/inventory-management-api)
 
 ---
 
@@ -100,13 +100,13 @@ Worked on a production family management platform built with **FastAPI, MongoDB,
 
 A public repository containing **50+ Python programs** covering core programming concepts, file handling, exception handling, data structures, string processing, and problem solving.
 
-[**Repository:**] (https://github.com/jyothi-basu/visionaid-python-class-assignments)
+[View Repository](https://github.com/jyothi-basu/visionaid-python-class-assignments)
 
 ### Expense Tracker
 
 A collaborative command-line expense management application built using Python and GitHub collaboration.
 
-[**Repository:**] (https://github.com/satyamagrawal28/expanse-tracker-project)
+[View Repository](https://github.com/satyamagrawal28/expanse-tracker-project)
 
 ---
 
@@ -130,7 +130,7 @@ Expected Graduation: **2027**
 ---
 
 ## Let's Connect
-**Website:** [jyothibasu.is-a.dev]
-**LinkedIn:** [linkedin.com/in/jyothi-basu-chodavarapu]
-**GitHub:** [github.com/jyothi-basu]
-**Email:**[ jyothibasuchodavarapu@gmail.com](mailto:jyothibasuchodavarapu@gmail.com)
+[View Website](https://jyothibasu.is-a.dev)
+[View LinkedIn](https://linkedin.com/in/jyothi-basu-chodavarapu)
+[View GitHub](https://github.com/jyothi-basu)
+**Email:** [contact@mail.jyothibasu.is-a.dev](mailto:contact@jyothibasu.is-a.dev)
