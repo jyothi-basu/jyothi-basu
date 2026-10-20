@@ -17,37 +17,51 @@ I'm currently working  as **Software Engineering Trainee Internship at FamilyShe
 ---
 
 ## Tech Stack
+
 ### Backend
-Python, FastAPI, Flask, REST APIs, Pytest, Uvicorn, Gunicorn
-### Databases
-MySQL • SQLite • MongoDB • Redis
+Python, FastAPI, Flask, REST APIs, SQLAlchemy ORM, Pytest, Uvicorn, Gunicorn
+
+### Databases & Data Stores
+PostgreSQL, MySQL, SQLite, MongoDB, Redis
+
 ### Authentication & Security
-JWT • bcrypt • Argon2 • Protected Routes • Input Validation
-### DevOps & Tools
-Docker • Git • GitHub • Linux (WSL) • Render
+JWT, bcrypt, Argon2, Protected Routes, Input Validation
+
+### DevOps, Hosting & Tools
+Docker, Git, GitHub, Linux (WSL), Render, Railway, Cloudflare, Resend, Zoho Mail
+
 ### AI Backend Integration
-LangChain • LangGraph • Retrieval-Augmented Generation (RAG) • ChromaDB • Tool Calling • Model Context Protocol (MCP)
+LangChain, LangGraph, Retrieval-Augmented Generation (RAG), ChromaDB, Pinecone, Tool Calling, Model Context Protocol (MCP)
+
 ### Engineering Practices
-Testing • Debugging • API Validation • Layered Architecture • Pull Requests • Code Review
+Testing, Debugging, API Validation, Layered Architecture, Pull Requests, Code Review
+
+### Domain & Email
+Custom Domains, DNS Management, Custom Email
 
 ---
 
 # Featured Projects
 ## Investment Portfolio Tracker
+
 A production-style **FastAPI backend application** that combines investment portfolio management with Retrieval-Augmented Generation (RAG), AI agent orchestration, and Model Context Protocol (MCP).
 
 ### Highlights
 
-* JWT authentication with access and refresh tokens.
-* Multi-Demat portfolio management with BUY/SELL transactions and holdings.
-* Layered backend architecture (Routes → Services → Repository → AI).
-* Retrieval-Augmented Generation using **LangChain** and **ChromaDB** with grounded source citations.
-* Provider-agnostic AI integration supporting Gemini SDK and OpenAI-compatible LLM providers.
-* AI agent orchestration using **LangGraph** and backend tool calling.
-* Shared backend tools reused by both the web assistant and MCP server.
-* **MCP servers** supporting **STDIO** and **Streamable HTTP** transports with authenticated document search.
-* Automated **pytest** test suite covering authentication, portfolio management, document workflows, AI tools, and MCP integration.
-
+- JWT authentication with access and refresh tokens.
+- Multi-Demat portfolio management with BUY/SELL transactions, holdings, and portfolio summaries.
+- Layered architecture with Routes, Services, Repository, AI, and MCP boundaries.
+- SQLAlchemy ORM with PostgreSQL support and configurable SQLAlchemy-compatible relational databases.
+- RAG pipeline for PDF, DOCX, TXT, and Markdown documents with source-grounded citations.
+- Configurable Chroma and Pinecone vector-store providers.
+- Provider-agnostic AI integration supporting Gemini, OpenAI, OpenAI-compatible, and local embedding providers.
+- LangGraph and LangChain orchestration with backend tool calling.
+- Trusted server-side user and chat context for secure data isolation.
+- Shared business tools reused by the web assistant and MCP transports.
+- MCP support through STDIO and authenticated Streamable HTTP transports.
+- Argon2-hashed personal access tokens for MCP authentication.
+- Automated pytest coverage for authentication, portfolio, document, RAG, AI, repository, and MCP workflows.
+[Watch the demonstration](https://drive.google.com/file/d/1iw9AsVXBuy3HSt64Fx9r8KR4HNdldMgj/view?usp=drive_link)
 [View Repository](https://github.com/jyothi-basu/investment-portfolio-tracker)
 
 ## AccessTracker — Accessibility Bug Reporting Platform
@@ -130,7 +144,7 @@ Expected Graduation: **2027**
 ---
 
 ## Let's Connect
-[View Website](https://jyothibasu.is-a.dev)
+[View Website](https://jyothibasu.com)
 [View LinkedIn](https://linkedin.com/in/jyothi-basu-chodavarapu)
 [View GitHub](https://github.com/jyothi-basu)
-**Email:** [contact@mail.jyothibasu.is-a.dev](mailto:contact@jyothibasu.is-a.dev)
+**Email:** [contact@jyothibasu.com](mailto:contact@jyothibasu.com)
