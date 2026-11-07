@@ -1,6 +1,6 @@
 # Hi, I'm Jyothi Basu 👋
 **Python Backend Developer** focused on building production-oriented REST APIs, authentication systems, database-driven backend applications, and AI-integrated backend services.
-I'm currently working  as **Software Engineering Trainee Internship at FamilyShell LLP**, where I worked on health records module of a production family management platform using **FastAPI, MongoDB, Redis, Docker, Cloudflare R2, and Flutter**, contributed to backend development, debugging, testing, and feature implementation.
+I have recently completed 5 month  internship as **Software Engineering Trainee Internship at FamilyShell LLP**, where I contributed to 2 distinct applications FamilyShell (family management application) and VoiceConnect (a highly customizable AI calling agent).
 
 ---
 
@@ -41,7 +41,33 @@ Custom Domains, DNS Management, Custom Email
 
 ---
 
-# Featured Projects
+# Software Engineering Trainee Intern — Family Shell LLP
+**May 2026 – October 2026 | 5 Months**
+
+Completed a five-month software engineering internship, contributing to two distinct applications:
+
+**1. FamilyShell — Family Management Platform**
+- Investigated and resolved production backend bugs across API, database, authentication, reminder, notification, and file storage workflows.
+- Traced frontend-to-backend request flows using application logs, database records, and REST API responses.
+- Implemented backend improvements across Health Records, reminder scheduling, notifications, email workflows, and file attachments.
+- Worked with FastAPI, MongoDB, Redis, Docker, JWT, Cloudflare R2, WebSockets, and Flutter.
+- Performed regression testing and collaborated through Git-based development workflows.
+
+**2. VoiceConnect — AI-Powered Calling Agent Platform**
+- Refactored Pinecone-specific integration into a provider-agnostic vector store architecture with configurable embedding and LLM providers.
+- Developed a conversational reasoning engine supporting Gemini, OpenAI, and Claude, with sliding-window conversation memory and multi-round tool execution.
+- Integrated RAG-based company knowledge retrieval and support-ticket creation tools.
+- Built provider-agnostic speech-to-text and text-to-speech interfaces, integrating Deepgram Nova-3, ElevenLabs Flash v2.5, and Murf Falcon 2.1.
+- Developed voice-processing workflows involving speech recognition, conversational reasoning, speech synthesis, dynamic echo cancellation, and pipelined audio playback.
+- Implemented real-time speech turn detection and transcript buffering safeguards, with regression tests for speech-event lifecycle scenarios.
+- Developed automated pytest coverage using mocked external service clients.
+- Researched and documented 23 RAG strategies and an architectural approach for Exotel telephony integration.
+
+**Technologies & Tools:** Python, FastAPI, MongoDB, Redis, Docker, LangChain, RAG, Vector Databases, Gemini, OpenAI, Claude, Deepgram, ElevenLabs, Murf, pytest, JWT, Cloudflare R2, WebSockets, Git, and GitHub.
+
+**Recognition:** Received a Letter of Recommendation upon successful completion of the internship.
+
+  # Featured Projects
 ## Investment Portfolio Tracker
 
 A production-style **FastAPI backend application** that combines investment portfolio management with Retrieval-Augmented Generation (RAG), AI agent orchestration, and Model Context Protocol (MCP).
@@ -124,9 +150,8 @@ A collaborative command-line expense management application built using Python a
 
 ---
 
-## Currently Learning
+## Currently Learningg
 
-* SQLAlchemy ORM for relational database applications.
 * Alembic for database schema migrations.
 * PostgreSQL for production-ready backend deployments.
 * OAuth 2.0 (Google Sign-In) integration for backend applications.
